@@ -1,0 +1,8 @@
+
+[locallhost]
+192.168.33.50 ansible_connection=ssh ansible_ssh_user=vangrant ansible_ssh_private_key_file=mykey host_key_checking=False
+
+
+[wordpress-server]
+3.95.2.75 ansible_connection=ssh ansible_ssh_user=ubuntu ansible_ssh_private_key=mykey
+
